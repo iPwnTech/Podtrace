@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B180C51E1E8FFA00DBE81A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B180C41E1E8FFA00DBE81A /* main.m */; };
+		C4B180C81E1E8FFA00DBE81A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B180C71E1E8FFA00DBE81A /* AppDelegate.m */; };
+		C4B180CB1E1E8FFA00DBE81A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B180CA1E1E8FFA00DBE81A /* ViewController.m */; };
+		C4B180CE1E1E8FFA00DBE81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B180CC1E1E8FFA00DBE81A /* Main.storyboard */; };
+		C4B180D01E1E8FFA00DBE81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B180CF1E1E8FFA00DBE81A /* Assets.xcassets */; };
+		C4B180D31E1E8FFA00DBE81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B180D11E1E8FFA00DBE81A /* LaunchScreen.storyboard */; };
+		C4B180DE1E1E8FFA00DBE81A /* PodtraceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B180DD1E1E8FFA00DBE81A /* PodtraceTests.m */; };
+		C4B180E91E1E8FFA00DBE81A /* PodtraceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B180E81E1E8FFA00DBE81A /* PodtraceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B180DA1E1E8FFA00DBE81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B180B81E1E8FFA00DBE81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B180BF1E1E8FFA00DBE81A;
+			remoteInfo = Podtrace;
+		};
+		C4B180E51E1E8FFA00DBE81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B180B81E1E8FFA00DBE81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B180BF1E1E8FFA00DBE81A;
+			remoteInfo = Podtrace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4B180C01E1E8FFA00DBE81A /* Podtrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podtrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B180C41E1E8FFA00DBE81A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B180C61E1E8FFA00DBE81A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4B180C71E1E8FFA00DBE81A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4B180C91E1E8FFA00DBE81A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4B180CA1E1E8FFA00DBE81A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4B180CD1E1E8FFA00DBE81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4B180CF1E1E8FFA00DBE81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B180D21E1E8FFA00DBE81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4B180D41E1E8FFA00DBE81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B180D91E1E8FFA00DBE81A /* PodtraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodtraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B180DD1E1E8FFA00DBE81A /* PodtraceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodtraceTests.m; sourceTree = "<group>"; };
+		C4B180DF1E1E8FFA00DBE81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B180E41E1E8FFA00DBE81A /* PodtraceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodtraceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B180E81E1E8FFA00DBE81A /* PodtraceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodtraceUITests.m; sourceTree = "<group>"; };
+		C4B180EA1E1E8FFA00DBE81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B180BD1E1E8FFA00DBE81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180D61E1E8FFA00DBE81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180E11E1E8FFA00DBE81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B180B71E1E8FFA00DBE81A = {
+			isa = PBXGroup;
+			children = (
+				C4B180C21E1E8FFA00DBE81A /* Podtrace */,
+				C4B180DC1E1E8FFA00DBE81A /* PodtraceTests */,
+				C4B180E71E1E8FFA00DBE81A /* PodtraceUITests */,
+				C4B180C11E1E8FFA00DBE81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B180C11E1E8FFA00DBE81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B180C01E1E8FFA00DBE81A /* Podtrace.app */,
+				C4B180D91E1E8FFA00DBE81A /* PodtraceTests.xctest */,
+				C4B180E41E1E8FFA00DBE81A /* PodtraceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B180C21E1E8FFA00DBE81A /* Podtrace */ = {
+			isa = PBXGroup;
+			children = (
+				C4B180C61E1E8FFA00DBE81A /* AppDelegate.h */,
+				C4B180C71E1E8FFA00DBE81A /* AppDelegate.m */,
+				C4B180C91E1E8FFA00DBE81A /* ViewController.h */,
+				C4B180CA1E1E8FFA00DBE81A /* ViewController.m */,
+				C4B180CC1E1E8FFA00DBE81A /* Main.storyboard */,
+				C4B180CF1E1E8FFA00DBE81A /* Assets.xcassets */,
+				C4B180D11E1E8FFA00DBE81A /* LaunchScreen.storyboard */,
+				C4B180D41E1E8FFA00DBE81A /* Info.plist */,
+				C4B180C31E1E8FFA00DBE81A /* Supporting Files */,
+			);
+			path = Podtrace;
+			sourceTree = "<group>";
+		};
+		C4B180C31E1E8FFA00DBE81A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B180C41E1E8FFA00DBE81A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B180DC1E1E8FFA00DBE81A /* PodtraceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B180DD1E1E8FFA00DBE81A /* PodtraceTests.m */,
+				C4B180DF1E1E8FFA00DBE81A /* Info.plist */,
+			);
+			path = PodtraceTests;
+			sourceTree = "<group>";
+		};
+		C4B180E71E1E8FFA00DBE81A /* PodtraceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B180E81E1E8FFA00DBE81A /* PodtraceUITests.m */,
+				C4B180EA1E1E8FFA00DBE81A /* Info.plist */,
+			);
+			path = PodtraceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B180BF1E1E8FFA00DBE81A /* Podtrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B180ED1E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "Podtrace" */;
+			buildPhases = (
+				C4B180BC1E1E8FFA00DBE81A /* Sources */,
+				C4B180BD1E1E8FFA00DBE81A /* Frameworks */,
+				C4B180BE1E1E8FFA00DBE81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podtrace;
+			productName = Podtrace;
+			productReference = C4B180C01E1E8FFA00DBE81A /* Podtrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B180D81E1E8FFA00DBE81A /* PodtraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B180F01E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "PodtraceTests" */;
+			buildPhases = (
+				C4B180D51E1E8FFA00DBE81A /* Sources */,
+				C4B180D61E1E8FFA00DBE81A /* Frameworks */,
+				C4B180D71E1E8FFA00DBE81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B180DB1E1E8FFA00DBE81A /* PBXTargetDependency */,
+			);
+			name = PodtraceTests;
+			productName = PodtraceTests;
+			productReference = C4B180D91E1E8FFA00DBE81A /* PodtraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4B180E31E1E8FFA00DBE81A /* PodtraceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B180F31E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "PodtraceUITests" */;
+			buildPhases = (
+				C4B180E01E1E8FFA00DBE81A /* Sources */,
+				C4B180E11E1E8FFA00DBE81A /* Frameworks */,
+				C4B180E21E1E8FFA00DBE81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B180E61E1E8FFA00DBE81A /* PBXTargetDependency */,
+			);
+			name = PodtraceUITests;
+			productName = PodtraceUITests;
+			productReference = C4B180E41E1E8FFA00DBE81A /* PodtraceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B180B81E1E8FFA00DBE81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "iPwn Technologies Pty Ltd";
+				TargetAttributes = {
+					C4B180BF1E1E8FFA00DBE81A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q95CCHKW8F;
+						ProvisioningStyle = Automatic;
+					};
+					C4B180D81E1E8FFA00DBE81A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q95CCHKW8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4B180BF1E1E8FFA00DBE81A;
+					};
+					C4B180E31E1E8FFA00DBE81A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q95CCHKW8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4B180BF1E1E8FFA00DBE81A;
+					};
+				};
+			};
+			buildConfigurationList = C4B180BB1E1E8FFA00DBE81A /* Build configuration list for PBXProject "Podtrace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B180B71E1E8FFA00DBE81A;
+			productRefGroup = C4B180C11E1E8FFA00DBE81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B180BF1E1E8FFA00DBE81A /* Podtrace */,
+				C4B180D81E1E8FFA00DBE81A /* PodtraceTests */,
+				C4B180E31E1E8FFA00DBE81A /* PodtraceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B180BE1E1E8FFA00DBE81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B180D31E1E8FFA00DBE81A /* LaunchScreen.storyboard in Resources */,
+				C4B180D01E1E8FFA00DBE81A /* Assets.xcassets in Resources */,
+				C4B180CE1E1E8FFA00DBE81A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180D71E1E8FFA00DBE81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180E21E1E8FFA00DBE81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B180BC1E1E8FFA00DBE81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B180CB1E1E8FFA00DBE81A /* ViewController.m in Sources */,
+				C4B180C81E1E8FFA00DBE81A /* AppDelegate.m in Sources */,
+				C4B180C51E1E8FFA00DBE81A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180D51E1E8FFA00DBE81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B180DE1E1E8FFA00DBE81A /* PodtraceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B180E01E1E8FFA00DBE81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B180E91E1E8FFA00DBE81A /* PodtraceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B180DB1E1E8FFA00DBE81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B180BF1E1E8FFA00DBE81A /* Podtrace */;
+			targetProxy = C4B180DA1E1E8FFA00DBE81A /* PBXContainerItemProxy */;
+		};
+		C4B180E61E1E8FFA00DBE81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B180BF1E1E8FFA00DBE81A /* Podtrace */;
+			targetProxy = C4B180E51E1E8FFA00DBE81A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4B180CC1E1E8FFA00DBE81A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B180CD1E1E8FFA00DBE81A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B180D11E1E8FFA00DBE81A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B180D21E1E8FFA00DBE81A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4B180EB1E1E8FFA00DBE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B180EC1E1E8FFA00DBE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B180EE1E1E8FFA00DBE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = Podtrace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.Podtrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4B180EF1E1E8FFA00DBE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = Podtrace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.Podtrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4B180F11E1E8FFA00DBE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = PodtraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.PodtraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podtrace.app/Podtrace";
+			};
+			name = Debug;
+		};
+		C4B180F21E1E8FFA00DBE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = PodtraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.PodtraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podtrace.app/Podtrace";
+			};
+			name = Release;
+		};
+		C4B180F41E1E8FFA00DBE81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = PodtraceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.PodtraceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Podtrace;
+			};
+			name = Debug;
+		};
+		C4B180F51E1E8FFA00DBE81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q95CCHKW8F;
+				INFOPLIST_FILE = PodtraceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipwntech.PodtraceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Podtrace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B180BB1E1E8FFA00DBE81A /* Build configuration list for PBXProject "Podtrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B180EB1E1E8FFA00DBE81A /* Debug */,
+				C4B180EC1E1E8FFA00DBE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B180ED1E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "Podtrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B180EE1E1E8FFA00DBE81A /* Debug */,
+				C4B180EF1E1E8FFA00DBE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4B180F01E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "PodtraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B180F11E1E8FFA00DBE81A /* Debug */,
+				C4B180F21E1E8FFA00DBE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4B180F31E1E8FFA00DBE81A /* Build configuration list for PBXNativeTarget "PodtraceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B180F41E1E8FFA00DBE81A /* Debug */,
+				C4B180F51E1E8FFA00DBE81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B180B81E1E8FFA00DBE81A /* Project object */;
+}
