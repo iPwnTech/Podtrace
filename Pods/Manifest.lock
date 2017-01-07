@@ -1,0 +1,18 @@
+PODS:
+  - MBCircularProgressBar (0.3.5)
+  - SVProgressHUD (2.1.2)
+  - XLForm (3.3.0)
+
+DEPENDENCIES:
+  - MBCircularProgressBar
+  - SVProgressHUD
+  - XLForm (~> 3.0)
+
+SPEC CHECKSUMS:
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  XLForm: d5c391dfc62865927b5bcab0a5a0dbfb3e02b0ec
+
+PODFILE CHECKSUM: 46dba0ccae7efb9759506cd5935b46f2b528cd25
+
+COCOAPODS: 1.1.1

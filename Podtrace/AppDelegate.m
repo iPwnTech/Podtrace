@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+
+    
+    NSString *airpodsName = [[NSUserDefaults standardUserDefaults] stringForKey:@"airpodName"];
+    
+    if (airpodsName == (id)[NSNull null]) {
+
+        self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"HasNoName"];
+        
+    }
+    else if ([airpodsName length] == 0) {
+        
+        self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"HasNoName"];
+        
+    }
+    else {
+        
+        self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"HasName"];
+    }
+
+    
     return YES;
 }
 
